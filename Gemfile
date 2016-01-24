@@ -49,11 +49,13 @@ gem 'carrierwave'
 gem 'figaro'
 
 # helps figaro talk to AWS
-gem "fog", "~> 1.3.1"
+# gem "fog", "~> 1.3.1"  # as we using carrierwave-aws for integration
 
 # minimagick
 gem 'mini_magick', '~> 4.3.1'
 
+# carrierwave-aws
+gem 'carrierwave-aws'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
