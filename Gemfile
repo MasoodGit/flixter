@@ -21,6 +21,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# use jquery ui for sortable / draggable
+gem 'jquery-ui-rails'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
 
@@ -62,6 +65,13 @@ gem 'stripe'
 
 # include ranked-model, for reordering the lessons/sections
 gem 'ranked-model'
+
+# miniprofiler
+gem 'rack-mini-profiler'
+
+gem 'flamegraph'
+
+#gem 'stackprof'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
